@@ -1,0 +1,6 @@
+list1 = [1, 2,6,5,4,10,9]
+list2 = [1,7,8,9,0,10]
+list1set = set(list1)
+intersection = list1set.intersection(list2)
+intersectionlist = list(intersection)
+print(intersectionlist)
